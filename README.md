@@ -47,4 +47,6 @@ docker-compose run --rm django python manage.py test --noinput --failfast
    - Docker: nginx proxy, SSL
    - Django: disable debug mode
    - Django: set SECRET_KEY
+   - Django: configure CORS_ALLOWED_ORIGINS
+
   
