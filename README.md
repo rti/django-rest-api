@@ -29,6 +29,7 @@ Direct your browser to http://127.0.0.1:8000/app/
 
 ```shell
 docker-compose run --rm django python manage.py createsuperuser
+docker-compose up
 ```
 
 Direct your browser to http://127.0.0.1:8000/admin/
@@ -38,3 +39,14 @@ Direct your browser to http://127.0.0.1:8000/admin/
 ```shell
 docker-compose run --rm django python manage.py test --noinput --failfast
 ```
+## TODO
+
+ - Production setup
+   - Docker: include source in container, remove volume
+   - Docker: postgres auth
+   - Docker: nginx proxy, SSL
+   - Django: disable debug mode
+   - Django: set SECRET_KEY
+   - Django: configure CORS_ALLOWED_ORIGINS
+
+  
