@@ -11,6 +11,7 @@ An opinionated project template for creating REST APIs
  - Postgres https://www.postgresql.org/
  - Docker https://www.docker.com/
  - Docker Compose https://docs.docker.com/compose/
+ - Vim Rest Console https://github.com/diepm/vim-rest-console
 
 ## How to use
 
