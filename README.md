@@ -29,6 +29,7 @@ Direct your browser to http://127.0.0.1:8000/app/
 
 ```shell
 docker-compose run --rm django python manage.py createsuperuser
+docker-compose up
 ```
 
 Direct your browser to http://127.0.0.1:8000/admin/
