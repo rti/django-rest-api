@@ -24,27 +24,30 @@ POST /app/auth-token/
 }
 
 http://127.0.0.1:8000
-Authorization: Token fb5456228cfd6eb56dff125b4988786efc36dfd2
+Authorization: Token YOURUSERTOKENHERE
+Content-Type: application/json; charset=utf-8
 POST /app/items/
 {
   "name": "An Item"
 }
 
 http://127.0.0.1:8000
-Authorization: Token fb5456228cfd6eb56dff125b4988786efc36dfd2
+Authorization: Token YOURUSERTOKENHERE
+Content-Type: application/json; charset=utf-8
 PUT /app/items/1/
 {
   "name": "Another Item"
 }
 
 http://127.0.0.1:8000
-Authorization: Token fb5456228cfd6eb56dff125b4988786efc36dfd2
+Authorization: Token YOURUSERTOKENHERE
+Content-Type: application/json; charset=utf-8
 PATCH /app/items/1/
 {
   "name": "Changed Item"
 }
 
 http://127.0.0.1:8000
-Authorization: Token fb5456228cfd6eb56dff125b4988786efc36dfd2
+Authorization: Token YOURUSERTOKENHERE
 DELETE /app/items/1/
 
