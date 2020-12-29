@@ -22,7 +22,7 @@ Install docker-compose
 docker-compose up
 ```
 
-Direct your browser to http://localhost:8000
+Direct your browser to http://127.0.0.1:8000/app/
 
 ### Access the django admin interface
 
